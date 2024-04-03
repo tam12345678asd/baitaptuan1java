@@ -13,15 +13,15 @@ public class b3 {
         if (tbm >= 8.5) {
             System.out.println("ban xep loai A");
         }
-        if (tbm >= 7 & tbm < 8.5 ) {
+        if (tbm >= 7 && tbm < 8.5 ) {
             System.out.println("ban xep loai B");
 
         }
-        if (tbm >= 5.5 & tbm < 7) {
+        if (tbm >= 5.5 && tbm < 7) {
             System.out.println("ban xep loai C");
 
         }
-        if (tbm >= 4 & tbm < 5.5) {
+        if (tbm >= 4 && tbm < 5.5) {
             System.out.println("ban xep loai D");
         }
         if (tbm < 4) {
