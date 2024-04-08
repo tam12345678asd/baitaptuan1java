@@ -4,12 +4,12 @@ public class b3 {
     public static void main(String[] args) {
         Scanner infor = new Scanner(System.in);
         System.out.println("nhap diem kiem tra cua ban:");
-        int input1 = infor.nextInt();
+        double input1 = infor.nextDouble();
         System.out.println("nhap diem chuyen can cua ban:");
-        int input2 = infor.nextInt();
+        double input2 = infor.nextDouble();
         System.out.println("nhap diem thi hoc ki cua ban:");
-        int input = infor.nextInt();
-        int tbm = (input+input1+input2)/3;
+        double input = infor.nextDouble();
+        double tbm = (input+input1+input2)/3;
         if (tbm >= 8.5) {
             System.out.println("ban xep loai A");
         }

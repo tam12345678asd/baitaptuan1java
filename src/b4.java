@@ -2,13 +2,14 @@ import java.util.Scanner;
 
 public class b4 {
     public static void main(String[] args) {
-        Scanner so = new Scanner(System.in);
+        Scanner number = new Scanner(System.in);
         System.out.println("Nhap so ban muon:");
-        int input = so.nextInt();
+        int input = number.nextInt();
         if (input <10 && input >=0) {
                 switch (input) {
                     case 0:
-                        System.out.println("zero");
+
+                    System.out.println("zero");
                         break;
                     case 1:
                         System.out.println("one");
